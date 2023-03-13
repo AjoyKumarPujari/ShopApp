@@ -1,14 +1,9 @@
+import "./Item.css";
 function Item(){
 
-    const date = 20;
-    const month ="June";
-    const year = 1998;
+   const itemname = "Nirma";
     return(
-       <div className="mfg-date">
-        <span>{date}</span>
-        <span>{month}</span>
-        <span>{year}</span>
-       </div>
+      <p className="nirma">{itemname}</p>
         
     );
 }
