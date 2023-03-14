@@ -3,7 +3,11 @@ function Item(props){
 
    const itemname = props.name;
     return(
-      <p className="nirma">{itemname}</p>
+        <div className="nirma">
+             <p >{itemname}</p>
+            {props.children}
+        </div>
+     
         
     );
 }
